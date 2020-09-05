@@ -1,0 +1,55 @@
+{
+	"landing": {
+		"firstName": "Robel",
+		"lastName": "Tessema",
+		"phoneNumber": "Phone Number",
+		"bio": "User's descriptive bio",
+    		"email": "User's email",
+    		"linkedin": "User's LinkedIn",
+		"github": "User's GitHub"
+	},
+	"experience": [
+		{
+				"position": "Web Developer",
+				"organization": "Company one",
+				"aboutWork": "Details about work here",
+				"fromDate": "Date of starting",
+				"toDate": "Ending Date"
+		},
+		{
+			"position": "App Developer",
+			"organization": "Company 2",
+			"aboutWork": "Details about work here",
+			"fromDate": "Date of starting",
+			"toDate": "ending date"
+		}
+	],
+	"education": [{
+			"university": "University or School Name",
+			"degree": "Major",
+			"gpa": "GPA",
+			"fromDate": "Date of start",
+			"toDate": "Date of completion"
+		}
+    		
+	],
+	"skills": [{
+			"name": "skill1"
+		},
+		{
+			"name": "skill2"
+		}
+    		
+	],
+	"interests": {
+		"paragraphOne": "Descriptive detail about your interests for paragraph one",
+		"paragraphTwo": "Descriptive detail about your interests for paragraph two"
+	},
+	"awards": [{
+			"awardDetail": "Your first award"
+		},
+		{
+			"awardDetail": "Your second award"
+		}
+	]
+}

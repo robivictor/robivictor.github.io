@@ -1,26 +1,36 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {Component}from 'react';
+import Sidebar from './Components/Sidebar';
+// import Landing from './Components/Landing';
+// import Experience from './Components/Landing';
+// import Education from './Components/Education';
+// import Skills from './Components/Skills';
+// import Interests from './Components/Interests';
+// import Awards from './Components/Awards';
+import jsonResume from './resumeJson.json'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+class App extends Component{
+
+  constructor(props){
+    super(props);
+
+    this.state = {
+       landingData : jsonResume.landing,
+       experience : jsonResume.experience,
+       education : jsonResume.education,
+       skills : jsonResume.skills,
+       interests : jsonResume.interests,
+       awards : jsonResume.awards
+    }
+  }
+
+  render(){
+    return (
+      <div className="App">
+        <Sidebar sidebarData={this.state.landingData}/>
+      </div>
+    );
+  }
 }
 
 export default App;
