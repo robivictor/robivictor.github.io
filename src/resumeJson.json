@@ -1,12 +1,20 @@
 {
 	"landing": {
 		"firstName": "Robel",
-		"lastName": "Tessema",
-		"phoneNumber": "Phone Number",
-		"bio": "User's descriptive bio",
-    		"email": "User's email",
-    		"linkedin": "User's LinkedIn",
-		"github": "User's GitHub"
+		"middleName" : "Tessema",
+		"lastName": "Herarso",
+		"headline" : "Fullstack Software Engineer, Solutions Architect",
+		"phoneNumber": "+1(510) 275-5491",
+		"location": "1322 Redwood Circle",
+		"city": "San Pablo",
+		"state" : "Califorina",
+		"country" : "United States",
+		"zipCode" : "94806",
+		"bio": "Enthusiastic software engineer with more than 7 years of industry experience, contributing to both small and enterprise-level business applications built on mobile and web platforms. Familiar with current development trends, tools, and best practices, as well as SDLC methodologies and design patterns. Proficient with C#, Java, .NET, MS SQL, Angular, Flutter, React, Git, and Docker, and eager to learn new languages and emerging technologies.",
+    	"email": "robeltessema.h@gmail.com",
+    	"linkedin": "https://www.linkedin.com/in/robeltessema/",
+		"github": "https://github.com/robivictor",
+		"twitter": "https://twitter.com/robeltessemah"
 	},
 	"experience": [
 		{
@@ -14,7 +22,22 @@
 				"organization": "Company one",
 				"aboutWork": "Details about work here",
 				"fromDate": "Date of starting",
-				"toDate": "Ending Date"
+				"toDate": "Ending Date",
+				"positions" : [
+					{
+						"Position":"Software Consultant",
+						"fromDate" : "",
+						"toDate":"",
+						"Description":""
+					},
+					{
+						"Position":"Software Consultant",
+						"fromDate" : "",
+						"toDate":"",
+						"Description":""
+					}
+
+				]
 		},
 		{
 			"position": "App Developer",
