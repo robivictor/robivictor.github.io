@@ -2,3 +2,13 @@
 border-left: 5px solid #bd5d3866;
 padding-left: 5px;
 }
+
+#rightSide {
+    text-align: center;
+    position: relative;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    width: 17rem;
+    height: 100vh;
+  }
