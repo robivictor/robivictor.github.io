@@ -1,4 +1,4 @@
-import React, { Comonent, Component } from "react";
+import React, {Component } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin , faTwitter, faSoundcloud} from "@fortawesome/free-brands-svg-icons";
 
@@ -7,6 +7,8 @@ class Landing extends Component {
     super(props);
     this.landingData = props.landingData;
   }
+
+   
 
   render() {
     return (
@@ -18,7 +20,7 @@ class Landing extends Component {
           </h1>
           <div className="subheading">{this.landingData.headline}</div>
           <div className="">
-            {this.landingData.location} · {this.landingData.city} · {this.landingData.state},{this.landingData.country}
+            {this.landingData.location} · {this.landingData.state} · {this.landingData.country}
           </div>
           <div className="mb-5">
             <i icon={faSoundcloud}></i>{this.landingData.phoneNumber} · <a href="mailto:name@email.com">{this.landingData.email}</a>
@@ -26,13 +28,13 @@ class Landing extends Component {
           
           <p className="lead mb-5">{this.landingData.bio}</p>
           <div className="social-icons">
-            <a className="social-icon" href={this.landingData.linkedin} target="_blank">
+            <a className="social-icon" href={this.landingData.linkedin} target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faLinkedin} />
             </a>
-            <a className="social-icon" href={this.landingData.github} target="_blank">
+            <a className="social-icon" href={this.landingData.github} target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faGithub} />
             </a>
-            <a className="social-icon" type="new" href={this.landingData.twitter} target="_blank">
+            <a className="social-icon" type="new" href={this.landingData.twitter} target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faTwitter} />
             </a>
           </div>

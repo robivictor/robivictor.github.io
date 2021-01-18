@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import Sidebar from "./Components/Sidebar";
 import Landing from "./Components/Landing";
-import Experience from "./Components/Experience";
-import Education from "./Components/Education";
-import Skills from "./Components/Skills";
-import Interests from "./Components/Interests";
-import Awards from "./Components/Awards";
-import Ads from "./Components/Ads"
+// import Experience from "./Components/Experience";
+// import Education from "./Components/Education";
+// import Skills from "./Components/Skills";
+// import Interests from "./Components/Interests";
+// import Awards from "./Components/Awards";
+// import RightSide from "./Components/RightSide"
 import jsonResume from "./resumeJson.json";
 
 class App extends Component {
@@ -27,10 +27,10 @@ class App extends Component {
     return (
       <div className="App">
         <Sidebar sidebarData={this.state.landingData} />
-        <div className="container-fluid p-0">
+        <div className="container-fluid">
           <Landing landingData={this.state.landingData} />
           <hr className="m-0" />
-          <Experience experience={this.state.experience} />
+          {/* <Experience experience={this.state.experience} />
           <hr className="m-0" />
           <Education education={this.state.education}/>
           <hr className="m-0" />
@@ -38,10 +38,9 @@ class App extends Component {
           <hr className="m-0" />
           <Interests interests={this.state.interests} />
           <hr className="m-0" />
-          <Awards awards={this.state.awards} />
+          <Awards awards={this.state.awards} /> */}
         </div>
-        <Sidebar sidebarData={this.state.landingData} />
-        <Ads/>
+        {/* <RightSide className="rightSide"/> */}
       </div>
     );
   }

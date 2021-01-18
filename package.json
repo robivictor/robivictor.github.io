@@ -1,7 +1,7 @@
 {
   "name": "robeltessema.me",
-  "homepage": "http://robeltessema.me/",
   "version": "0.1.0",
+  "homepage": "https://robeltessema.me/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
@@ -14,15 +14,16 @@
     "gh-pages": "^3.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-photo-gallery": "^8.0.0",
     "react-scripts": "3.4.3"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
