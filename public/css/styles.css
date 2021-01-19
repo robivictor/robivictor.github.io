@@ -12,9 +12,9 @@
  */
 :root {
   --blue: #007bff;
-  --indigo: #6610f2;
+  --indigo: #8121ff; 
   --purple: #6f42c1;
-  --pink: #e83e8c;
+  --pink: #ff833b;
   --red: #dc3545;
   --orange: #bd5d38;
   --yellow: #ffc107;
@@ -160,12 +160,15 @@ sup {
 
 a {
   color: #76b900;
+  font-weight: bolder;
   text-decoration: none;
-  background-color: transparent;
+  /* background-color: transparent;  */
+  color: var(--indigo);
+
 }
 a:hover {
-  color: #824027;
-  text-decoration: underline;
+  color:var(--pink);
+  /* text-decoration: underline; */
 }
 
 a:not([href]) {
@@ -10084,13 +10087,19 @@ p.lead {
     display: block;
   }
 }
+
+.social-icons {
+  padding-bottom: 2em;
+  padding-top: 1em;
+}
+
 .social-icons .social-icon {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  height: 3.5rem;
-  width: 3.5rem;
-  background-color: #495057;
+  height: 2.5rem;
+  width: 2.5rem;
+  background-color: var(--indigo);
   color: #fff;
   border-radius: 100%;
   font-size: 1.5rem;
@@ -10100,7 +10109,7 @@ p.lead {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  background-color: #76b900;
+  background-color: var(--pink);
 }
 
 .dev-icons {
