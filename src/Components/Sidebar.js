@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import image from "../assets/profile.jpg";
+import Social from "./Social";
 
 class Sidebar extends Component {
   constructor(props) {
     super(props);
-
     this.sidebarData = props.sidebarData;
   }
 
@@ -35,6 +35,9 @@ class Sidebar extends Component {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
+        <div >
+       
+        </div>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav">
             {/* <li className="nav-item">
