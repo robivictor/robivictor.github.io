@@ -32,6 +32,7 @@ class techStack extends Component {
         <img className="icon" src={python} alt="python" />
         <img className="icon" src={dotnetcore} alt="dotnetcore" />
         <img className="icon" src={spring} alt="spring" />
+        <img className="icon" src={nodejs} alt="nodejs" />
 
         <img className="icon" src={css} alt="css3" />
         <img className="icon" src={html} alt="html" />
@@ -39,14 +40,15 @@ class techStack extends Component {
         <img className="icon" src={angular} alt="angular" />
         <img className="icon" src={react} alt="react" />
         <img className="icon" src={typescript} alt="typescript" />
-        <img className="icon" src={nodejs} alt="nodejs" />
+        
                 
         <img className="icon" src={git} alt="git" />
         <img className="icon" src={vscode} alt="typescript" />
-        <img className="icon" src={kubernetes} alt="kubernetes" />
+        <img className="icon" src={azure} alt="azure" />
         <img className="icon" src={aws} alt="aws" />
         <img className="icon" src={docker} alt="angular" />
-        <img className="icon" src={azure} alt="azure" />
+        <img className="icon" src={kubernetes} alt="kubernetes" />
+        
         
         <img className="icon" src={mssql} alt="mssql" />
         <img className="icon" src={mysql} alt="mysql" />
