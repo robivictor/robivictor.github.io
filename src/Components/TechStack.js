@@ -20,7 +20,7 @@ import nodejs from "../assets/icons/nodejs.png";
 import mysql from "../assets/icons/mysql.png";
 import mongodb from "../assets/icons/mongodb.png";
 import dotnetcore from "../assets/icons/dotnetcore.png";
-import golang from "../assets/icons/golang.png";
+import golang from "../assets/icons/go.png";
 
 class techStack extends Component {
   render() {
