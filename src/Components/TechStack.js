@@ -21,7 +21,6 @@ import mysql from "../assets/icons/mysql.png";
 import mongodb from "../assets/icons/mongodb.png";
 import dotnetcore from "../assets/icons/dotnetcore.png";
 import golang from "../assets/icons/go-yellow.png";
-import golangtext from "../assets/icons/go-text.png";
 
 class techStack extends Component {
   render() {
@@ -29,7 +28,6 @@ class techStack extends Component {
       <div className="techStack">
         
         <img className="icon" src={golang} alt="golang" />
-        <img className="icon" src={golangtext} alt="golang-text" />
         <img className="icon" src={csharp} alt="csharp" />
         <img className="icon" src={java} alt="java" />
         <img className="icon" src={python} alt="python" />
