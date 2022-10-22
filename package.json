@@ -1,7 +1,7 @@
 {
-  "name": "robeltessema.me",
+  "name": "robeltessema.com",
   "version": "0.1.0",
-  "homepage": "https://robeltessema.me/",
+  "homepage": "https://robeltessema.com/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.30",

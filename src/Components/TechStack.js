@@ -20,13 +20,14 @@ import nodejs from "../assets/icons/nodejs.png";
 import mysql from "../assets/icons/mysql.png";
 import mongodb from "../assets/icons/mongodb.png";
 import dotnetcore from "../assets/icons/dotnetcore.png";
-
+import golang from "../assets/icons/golang.png";
 
 class techStack extends Component {
   render() {
     return (
       <div className="techStack">
         
+        <img className="icon" src={golang} alt="golang" />
         <img className="icon" src={csharp} alt="csharp" />
         <img className="icon" src={java} alt="java" />
         <img className="icon" src={python} alt="python" />
@@ -40,16 +41,14 @@ class techStack extends Component {
         <img className="icon" src={angular} alt="angular" />
         <img className="icon" src={react} alt="react" />
         <img className="icon" src={typescript} alt="typescript" />
-        
-                
+               
         <img className="icon" src={git} alt="git" />
         <img className="icon" src={vscode} alt="typescript" />
         <img className="icon" src={azure} alt="azure" />
         <img className="icon" src={aws} alt="aws" />
         <img className="icon" src={docker} alt="angular" />
         <img className="icon" src={kubernetes} alt="kubernetes" />
-        
-        
+         
         <img className="icon" src={mssql} alt="mssql" />
         <img className="icon" src={mysql} alt="mysql" />
         <img className="icon" src={mongodb} alt="mongodb" />
