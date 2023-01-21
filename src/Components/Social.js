@@ -44,7 +44,6 @@ const Social = (props) => {
         </div>
         <div className="">
           <i icon={faSoundcloud}></i>
-          {props.info.phoneNumber} ·{" "}
           <a href="mailto:name@email.com">{props.info.email}</a>
         </div>
       </div>
