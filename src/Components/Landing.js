@@ -24,7 +24,7 @@ class Landing extends Component {
           <Social info={this.landingData}></Social>
           <TechStack></TechStack>
           <div className="lead mb-5">
-            <b>Being an engineer is my calling!</b> I naturally tend to process
+            I naturally tend to process
             possible solutions to the problems I encounter, If I recognize the
             problem I most certainly will take the challenge of solving it.
             Software engineering has been my biggest enabler in feeding this
