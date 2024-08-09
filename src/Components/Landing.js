@@ -18,7 +18,7 @@ class Landing extends Component {
             I am
             <span className="text-gradient ml-2">
               {" "}
-              {this.landingData.firstName} {this.landingData.middleName}
+              {this.landingData.firstName} {this.landingData.middleName.charAt(0)}. {this.landingData.lastName}
             </span>
           </h1>
           <Social info={this.landingData}></Social>

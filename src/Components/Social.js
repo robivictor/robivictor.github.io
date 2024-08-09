@@ -39,7 +39,8 @@ const Social = (props) => {
       </div>
       <div className="pd-1em">
         <div className="subheading">{props.info.headline}</div>
-        <div className="">
+        <div className="">{props.info.info}</div>
+        <div className="pd-1em">
           {props.info.location} · {props.info.state} · {props.info.country}
         </div>
         <div className="">
