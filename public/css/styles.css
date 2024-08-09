@@ -163,11 +163,11 @@ a {
   font-weight: bolder;
   text-decoration: none;
   /* background-color: transparent;  */
-  color: var(--indigo);
+  color: var(--green);
 
 }
 a:hover {
-  color:var(--pink);
+  color:var(--teal);
   /* text-decoration: underline; */
 }
 
@@ -10106,7 +10106,7 @@ p.lead {
   justify-content: center;
   height: 2.5rem;
   width: 2.5rem;
-  background-color: var(--indigo);
+  background-color: var(--teal);
   color: #fff;
   border-radius: 100%;
   font-size: 1.5rem;
@@ -10116,7 +10116,7 @@ p.lead {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  background-color: var(--pink);
+  background-color: var(--green);
 }
 
 .dev-icons {
