@@ -48,7 +48,7 @@ class Landing extends Component {
             as it is the most dynamic and rich industry.
             <br />
             <br />I have professionally contributed and spearheaded projects in
-            Healthcare, Logistics, and Business verticals for 7 years having
+            Healthcare, Logistics, and Business verticals for 10 years having
             Java/Spring Boot, C#/ASP.NET/.NET Core, Python/Flask/FastAPI,
             Golang, JavaScript/Typescript/Angular/React.js, and
             MS-SQL/MySQL/MongoDB under my belt. Long list huh? Trust me, what I
